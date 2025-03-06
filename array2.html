@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html"><h2>Array 1</h2></a>
+    <a href="array3.html"><h2>Array 3</h2></a>
+    <a href="array4.html"><h2>Array 4</h2></a>
+    <a href="array5.html"><h2>Array5</h2></a>
+    <a href="array6.html"><h2>Array6</h2></a>
+
+
+
+    <script>
+     let studentsfullName = ["Hasan","Amin","Mazz"];
+     console.log(studentsfullName);
+     
+     let studentscore = [320,230,480];
+     console.log(studentscore);
+     
+     let totalMarks = 500
+     let Percentage = studentscore[0]/totalMarks*100
+
+     let Percentage1 = studentscore[1]/totalMarks*100
+
+     let Percentage2 = studentscore[2]/totalMarks*100
+// console.log(Percentage);
+
+
+    document.write(`Score of ${studentsfullName[0]} is ${studentscore[0]}.Percentage:${Percentage}% <br>`)
+     
+    document.write(`Score of ${studentsfullName[1]} is ${studentscore[1]}.Percentage:${Percentage1}% <br>`)
+    
+    document.write(`score of ${studentsfullName[2]} is ${totalMarks}.Percentage:${Percentage2}%`)
+     
+
+    </script>
+</body>
+</html>
